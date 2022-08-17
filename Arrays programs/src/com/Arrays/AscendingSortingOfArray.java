@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.lang.System.in;
+//this program sort the unsorted array to sorted array in asc order
 
 public class AscendingSortingOfArray {
     public static void main(String[] args) {
