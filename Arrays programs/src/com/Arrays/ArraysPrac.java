@@ -25,7 +25,8 @@ public class ArraysPrac {
     {
         int ans=-1;
         Arrays.sort(arr);
-       ans=arr[value];
+        System.out.println("sorted array is:"+Arrays.toString(arr));
+       ans=arr[value-1];
         return ans;
     }
 }
