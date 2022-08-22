@@ -13,7 +13,8 @@ public class DiscountofProduct {
     }
     static void discount(double a,double b)
     {
-        double price=(a*b)/100;
+        double dis=(a*b)/100;
+        double price=a-dis;
         System.out.println("The price of the product with discount is:-"+price);
     }
 }

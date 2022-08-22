@@ -7,29 +7,29 @@ public class until0pressed {
         Scanner sc=new Scanner(in);
         int sum=0;
         ArrayList<Integer> list=new ArrayList<Integer>();
-//        while(true)                   //for sum of the integers until user enters 0.
-//        {
-//            int n=sc.nextInt();
-//            if(n!=0)
-//            {
-//             sum+=n;
-//             continue;
-//            }
-//            else
-//                System.out.println(sum);
-//                break;
-//        }
-        while(true)                     //for the largest number among the user inputs until user presses 0.
+        while(true)                   //for sum of the integers until user enters 0.
         {
             int n=sc.nextInt();
             if(n!=0)
             {
-                list.add(n);
-                continue;
+             sum+=n;
+             continue;
             }
             else
-                System.out.println(Collections.max(list));
-            break;
+                System.out.println("The sum of the entered numbers is:"+sum);
+                break;
         }
+//        while(true)                     //for the largest number among the user inputs until user presses 0.
+//        {
+//            int n=sc.nextInt();
+//            if(n!=0)
+//            {
+//                list.add(n);
+//                continue;
+//            }
+//            else
+//                System.out.println(Collections.max(list));
+//            break;
+//        }
     }
 }

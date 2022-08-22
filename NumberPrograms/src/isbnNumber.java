@@ -16,7 +16,7 @@ public class isbnNumber {
                digits++;
                n = n / 10;
            }                                //e loop end ki n=0 avuthundi so manaki tarwatha-
-            if(digits!=10)                  // -n ni call cheytey 0 tiskuntundi so manam temp ni call cheystam
+            if(digits!=10)                  // -n ni call cheystey 0 tiskuntundi so manam temp ni call cheystam
             {
                 System.out.println("INVALID INPUT");
                 System.out.println("please enter a 10 digit number");
