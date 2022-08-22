@@ -1,0 +1,1 @@
+This text is used to read the contents in the file using FileReader class
