@@ -32,8 +32,7 @@ public class FlowLayoutProgram {
         frame.add(button7);
         frame.add(button8);
         frame.add(button9);
-
-
+        /*we can also create a panel and store these buttons in that panel and add that panel to the frame,sounds cool ri8!!!*/
 
     }
 }
