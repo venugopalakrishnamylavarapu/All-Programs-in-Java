@@ -5,7 +5,7 @@ public class MyFrame extends JFrame {//concept of inheritence is used which used
     MyFrame() {
         this.setVisible(true); //makes the window visible(i mean frame).
         this.setTitle("Example Frame of java(title goes here)");//ikkada frame pina title vastundi
-        this.setResizable(false); //false icham kabbati manam mouse tho frame size ni penchalenmu and maxiimize kuda cheyalemu.true istey size penchukovachu
+        this.setResizable(true); //false icham kabbati manam mouse tho frame size ni penchalenmu and maxiimize kuda cheyalemu.true istey size penchukovachu
         this.setSize(720, 720);//here we provide the size of the framein terms of x dimension and y dimension
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//exit out of application(by default its hide on close)
 

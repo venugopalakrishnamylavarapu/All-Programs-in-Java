@@ -19,13 +19,16 @@ public class AudioPlayer {
             str=sc.nextLine();
             str=str.toUpperCase();
             switch (str) {
-                case ("Q") -> clip.close();
+                case ("Q") -> {
+                    clip.close();
+                    System.out.println("malli next pata lo kaludham");
+                    break;
+                }
                 case ("S") -> clip.start();
                 case ("R") -> clip.setMicrosecondPosition(0);
                 case ("H") -> clip.stop();
                 default -> System.out.println("Not a valid Option");
             }
-            System.out.println("malli next pata lo kaludham");
         }
     }
 }
