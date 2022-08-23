@@ -40,6 +40,5 @@ public class JavaLabels {
         tab.add(content);       //adding the content(JLabel component) to the JFrame
 
         tab.pack();         //used to exactly fix the frame size automatically according to the image
-
     }
 }

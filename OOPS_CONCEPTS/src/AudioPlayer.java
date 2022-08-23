@@ -1,6 +1,6 @@
+import javax.sound.sampled.*;
 import java.util.*;
 import java.io.*;
-import javax.sound.sampled.*;
 
 import static java.lang.System.in;
 

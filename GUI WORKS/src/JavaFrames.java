@@ -8,7 +8,7 @@ public class JavaFrames {
 
         //here the below is raw code
 
-        JFrame tab=new JFrame();
+//        JFrame tab=new JFrame();
 //        tab.setVisible(true); //makes the window visible(i mean frame).
 //        tab.setTitle("Example Frame of java(title goes here)");//ikkada frame pina title vastundi
 //        tab.setResizable(false); //false icham kabbati manam mouse tho frame size ni penchalenmu and maxiimize kuda cheyalemu.true istey size penchukovachu
