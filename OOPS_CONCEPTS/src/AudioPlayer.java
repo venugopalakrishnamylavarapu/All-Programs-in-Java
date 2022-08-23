@@ -12,16 +12,16 @@ public class AudioPlayer {
         Clip clip=AudioSystem.getClip();        //clip aney method lo clip ni open cheya tam close cheyatam and so on methods untai so danni manam call cheysam
 
         String str ="";
-        while(!str.equalsIgnoreCase("Q"))
+        while(!str.equals("Q"))
         {
             System.out.println("Enter the option:");
-            System.out.print("option Q:-to exit ||option S:-to Start ||option R:-to Reset ||option H:-to stop");
+            System.out.print("option Q:-to exit ||option S:-to Start ||option R:-to Reset ||option H:-to stop:-");
             str=sc.next();
             switch (str)
             {
                 case ("Q"):clip.close();
                 break;
-                case  ("S"):clip.start();
+                case  ("S"):clip.open();
                 break;
                 case ("R"):clip.setMicrosecondPosition(0);
                 break;
