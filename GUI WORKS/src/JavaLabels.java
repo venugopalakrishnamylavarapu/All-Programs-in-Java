@@ -14,7 +14,7 @@ public class JavaLabels {
         content.setHorizontalTextPosition(JLabel.CENTER);  //align the text position to the center wrt to image
         content.setVerticalTextPosition(JLabel.BOTTOM);       //align the text position to the top wrt to image
         content.setForeground(Color.YELLOW);             //adding color to the font
-        content.setFont(new Font("MV Boli",Font.ITALIC,15));        //adding styles to the text(font)
+        content.setFont(new Font("Algerian",Font.PLAIN,15));        //adding styles to the text(font)
         content.setIconTextGap(40);         //adds the gap between text and icon
         content.setBackground(Color.BLACK);      //adding background to the label(*NOT FOR THE JFRAME*)
         content.setOpaque(true);                //to make the background apply on the label we need to call this method
