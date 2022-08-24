@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class JavaCheckbox {
+public class JavaCheckbox {
+    public static void main(String[] args) {
+        new CheckboxSubclass();
+    }
 }
