@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class JavaSliderProgram {
+public class JavaSliderProgram {
+    public static void main(String[] args) {
+        new JSliderSubProgram();
+    }
 }

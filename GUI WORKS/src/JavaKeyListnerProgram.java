@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class JavaKeyListnerProgram {
+public class JavaKeyListnerProgram {
+    public static void main(String[] args) {
+        new KeyListenerSubCLass();
+    }
 }
