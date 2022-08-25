@@ -18,7 +18,7 @@ public class TwoDAnimationsJPanel extends JPanel implements ActionListener {
             this.setPreferredSize(new Dimension(PANEL_WIDTH,PANEL_HEIGHT));
             this.setBackground(Color.black);
             enemy = new ImageIcon("C:\\Users\\Dell\\IdeaProjects\\GUI WORKS\\astronaut-icon.png").getImage();
-            backgroundImage = new ImageIcon("C:\\Users\\Dell\\IdeaProjects\\GUI WORKS\\25lWNg.jpeg").getImage();
+            backgroundImage = new ImageIcon("C:\\Users\\Dell\\IdeaProjects\\GUI WORKS\\25lWNg.jpg").getImage();
             timer = new Timer(10, this);
             timer.start();
         }

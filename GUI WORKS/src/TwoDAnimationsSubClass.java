@@ -7,7 +7,7 @@ public class TwoDAnimationsSubClass extends JFrame {
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.add(panel);
-        this.setSize(1280,720);
+        this.pack();
         this.setLocationRelativeTo(null);
         this.setVisible(true);
     }
