@@ -9,7 +9,7 @@ public class KeyListenerSubCLass extends JFrame  implements KeyListener {
     KeyListenerSubCLass()
     {
         //created a icon;
-        icon =new ImageIcon("Images.png");
+        icon =new ImageIcon("C:\\Users\\Dell\\IdeaProjects\\GUI WORKS\\alien-ship-2-icon.png");
 
         //created a label
         label =new JLabel();
