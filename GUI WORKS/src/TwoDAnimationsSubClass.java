@@ -5,6 +5,7 @@ public class TwoDAnimationsSubClass extends JFrame {
     TwoDAnimationsSubClass(){
         panel = new TwoDAnimationsJPanel();
 
+        this.setTitle("2D Animations Program");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.add(panel);
         this.pack();
