@@ -8,6 +8,6 @@ public class MutliThread {
 
      thread1.start();
 //     thread1.join();        // basically it starts executing the second thread only after thread 1 is done executing totally
-     thread2.start();
+     thread2.start(); //second thread started
     }
 }

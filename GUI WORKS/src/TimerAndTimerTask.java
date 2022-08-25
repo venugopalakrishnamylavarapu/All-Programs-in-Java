@@ -3,6 +3,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class TimerAndTimerTask {
+    //timer and timertask are two Different things
     public static void main(String[] args) {
         Timer timer=new Timer();
         TimerTask task = new TimerTask() {

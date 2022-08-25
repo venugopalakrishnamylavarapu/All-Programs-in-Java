@@ -4,6 +4,9 @@ import static java.lang.System.in;
 //used MyThread class
 public class ThreadsProgram {
     public static void main(String[] args) throws InterruptedException {        //exception is added
+        /*THE BELOW CODE DESCRIBES HOW A THREAD WORKS U CAN UNCOMMENT THE LINES AND TRY THEM YOR SELF*/
+
+
 //        System.out.println(Thread.activeCount());       //to know how many threads are active
 //        System.out.println(Thread.currentThread().getPriority());        //to know the default priority of the current thread.
 //        Thread.currentThread().setPriority(10);         //to set the prority of the thread,basically it between 1-10.

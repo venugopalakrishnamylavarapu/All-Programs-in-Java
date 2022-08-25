@@ -1,4 +1,5 @@
 public class MultiThread1 extends Thread {
+    //extendded thread class
     public void run()
     {
         for (int i = 0; i<10 ; i++) {
@@ -11,6 +12,4 @@ public class MultiThread1 extends Thread {
         }
         System.out.println("Thread 1 is completed,lessggoooo!!!");
     }
-
-
 }
