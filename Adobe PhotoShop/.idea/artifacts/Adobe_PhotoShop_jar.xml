@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Adobe PhotoShop:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="Adobe PhotoShop.jar">
+      <element id="module-output" name="Adobe PhotoShop" />
+    </root>
+  </artifact>
+</component>
