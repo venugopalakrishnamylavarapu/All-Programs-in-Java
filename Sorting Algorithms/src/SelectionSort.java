@@ -7,7 +7,7 @@ public class SelectionSort
     //unstable algo
     //works on small list
     public static void main(String[] args) {
-        int[] l={6,4,3,2,1};        //u can take user example
+        int[] l={6,4,3,5,2,1};        //u can take user example
        selectionSort(l);
         System.out.println(Arrays.toString(l));
     }

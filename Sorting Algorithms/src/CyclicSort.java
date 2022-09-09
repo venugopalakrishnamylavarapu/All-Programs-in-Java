@@ -20,7 +20,7 @@ public class CyclicSort {
         int i=0;
          while(i<arr.length) {
              int correctIndex=arr[i]-1;
-             if(arr[i]!=arr[correctIndex])          //as you can see we sorted the array in one pass
+             if(arr[i]<arr.length && arr[i]!=arr[correctIndex])          //as you can see we sorted the array in one pass
              {
                  swap(arr,i,correctIndex);
              }
