@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class InsertionSort {
     public static void main(String[] args) {
-        int[] arr={5, 4, 3, 2, 1};
+        int[] arr={5,3,9,31,2,3,29,97,7,41,1,3,3,2,6,6,9,7,2,58,6,3,85,1};
         insertionSort(arr);
         System.out.println(Arrays.toString(arr));
     }

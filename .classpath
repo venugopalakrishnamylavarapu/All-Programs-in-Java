@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Adobe PhotoShop/src"/>
+	<classpathentry kind="src" path="Areas_and_Perimeters/src"/>
+	<classpathentry kind="src" path="Arrays programs/src"/>
+	<classpathentry kind="src" path="GUI WORKS/src"/>
+	<classpathentry kind="src" path="LeetCodeProblems/src"/>
+	<classpathentry kind="src" path="Matrix Programs/src"/>
+	<classpathentry kind="src" path="NumberPrograms/src"/>
+	<classpathentry kind="src" path="OddPositionnumbers/src"/>
+	<classpathentry kind="src" path="OOPS_CONCEPTS/src"/>
+	<classpathentry kind="src" path="Patterns/src"/>
+	<classpathentry kind="src" path="Reccursion Programs/src"/>
+	<classpathentry kind="src" path="Sorting Algorithms/src"/>
+	<classpathentry kind="src" path="Sqrroot/src"/>
+	<classpathentry kind="src" path="Strings Programs/src"/>
+	<classpathentry kind="output" path="Adobe PhotoShop/out/production/Adobe PhotoShop"/>
+</classpath>

@@ -1,7 +1,5 @@
 package StarPatterns;
 
-import javax.naming.PartialResultException;
-
 public class Pattern {
     public static void main(String[] args) {
         pattern3(5);
@@ -30,7 +28,7 @@ public class Pattern {
     static void pattern3(int n)
     {
         for (int i = 0; i < n; i++) {
-            for (int j=n;j>0;j--)
+            for (int j=n;j>i;j--)
             {
                 System.out.print("* ");
             }
