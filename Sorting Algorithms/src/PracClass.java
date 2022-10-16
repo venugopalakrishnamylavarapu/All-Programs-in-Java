@@ -7,28 +7,14 @@ import static java.lang.System.in;
 
 public class PracClass {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(in);
-        int[] arr={4,8,9,10,14,16,19,47,59,86};
-        PracClass obj=new PracClass();
-        System.out.println(obj.binarySearch(arr,8));
-
+        int a=34;//a=34-->35-->a=34
+        int b=21;//b=21-->b=22-->b=21-->b=20
+        int c=a++ + ++b;//c= (a=34 a=35 + b=22 b=22)==>(34+22=56)==>c=56-->c=55
+        int d= --a + --b +c--;//d= (a=34 a=34 + b=21 b=21 +c=56 c=55)==>(34+21+56=111)==>d=111-->d=110-->109
+        int e =a+ +b + +c +d--;//a=34+b=21+c=55+(d=111 d=110)==>(34+21+55+111=221)==>e=221
+        int f= -a +b-- + -c - d--;//a=(-34)+(b=21 b=20)+c=(-55)-(d=110 d=109)==>(-34+21-55-110=-178)==>f=-178
+        int sum=a+b+c+d+e+f;//(a=34+b=20+c=55+d=110+e=221+f=(-178))==>(34+20+55+110+221-178)=
+        System.out.println("sum = "+sum);//
     }
 
-    public int binarySearch(int[] arr, int target) {
-        int low = 0;
-        int high = arr.length ;
-        while (low < high) {
-            int mid = (low + high) / 2;
-            if (arr[mid] == target) {
-                return mid;
-            }
-            if (arr[mid] > target) {
-                high = mid - 1;
-            }
-            if (arr[mid] < target) {
-                low = mid + 1;
-            }
-        }
-        return -1;
-    }
 }
