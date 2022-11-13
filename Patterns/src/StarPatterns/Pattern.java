@@ -2,7 +2,7 @@ package StarPatterns;
 
 public class Pattern {
     public static void main(String[] args) {
-        pattern3(5);
+        pattern2(5);
     }
     //pattern1
     static void pattern1(int n)

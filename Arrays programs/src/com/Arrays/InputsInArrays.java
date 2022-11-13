@@ -42,8 +42,8 @@ public class InputsInArrays {
         int n = sc.nextInt();                 //m is rows && n is columns
         int[][] arr1 = new int[m][n];
         System.out.println("Enter the numbers");
-        for (int row = 0; row < m; row++) {                 //row loop in this 1 itteration is equal to total itteration of column loop
-            for (int col = 0; col < n; col++) {             //column loop total itteration
+        for (int row = 0; row < m; row++) {                 //row loop in this 1 iteration is equal to total iteration of column loop
+            for (int col = 0; col < n; col++) {             //column loop total iteration
                 arr1[row][col] = sc.nextInt();              //same as 1d array same input method but there are two loops
             }
         }

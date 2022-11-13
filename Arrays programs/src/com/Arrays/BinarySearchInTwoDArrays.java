@@ -15,7 +15,8 @@ public class BinarySearchInTwoDArrays {
         int[][] arr={
                 {1,2,3},
                 {4,5,6},
-                {7,8,9}};
+                {7,8,9},
+                };
 //        System.out.println("Enter the values in the matrix:");
 //        for (int i = 0; i < arr.length; i++) {
 //            for (int j = 0; j < arr[i].length; j++) {
@@ -25,7 +26,7 @@ public class BinarySearchInTwoDArrays {
 //        for (int row = 0; row < arr.length; row++) {      //we used the short cut here since the array in the array is considered as one index
 //            System.out.println("The given matrix array is:"+ Arrays.toString(arr[row])); //and here we print the array with index(which consists of arrays)
 //        }
-//        System.out.println("Enter the target:");
+         System.out.println("Enter the target:");
         int target=sc.nextInt();
         System.out.println("The index of the target value in the matrix is:");
         int[] index=binarySearchIn2dArrays(arr,target);
