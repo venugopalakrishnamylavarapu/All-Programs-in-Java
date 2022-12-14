@@ -22,4 +22,15 @@ public class SquaresOfSortedArray {
         }
         return result;
     }
+    /*//the below method is another method done by me
+      public int[] sortedSquares(int[] arr) {
+            for(int i=0;i<arr.length;i++)
+            {
+                arr[i]=arr[i]*arr[i];
+            }
+            Arrays.sort(arr);
+            return arr;
+        }
+
+     */
 }
